@@ -1,0 +1,239 @@
+
+.formoid-solid-blue select, {
+  font-family: inherit;
+  color: inherit;
+}
+
+
+.formoid-solid-blue select{
+  border-style: solid;
+ border-width: 2px;
+  border-color: #bdc3c7;
+  -webkit-transition: border-color 0.5s ease-in-out;
+  transition: border-color 0.5s ease-in-out;
+  border-radius:3px;
+
+  padding: 10px 10px 9px 2.3em;
+  
+  outline:none;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: normal;
+  
+  font-size: 1em;
+}
+
+
+.formoid-solid-blue  select{
+  cursor: pointer;
+  text-align: left;
+  width: 100%;
+}
+
+.element-select .element-multiple {
+  top: 12px;
+  content: '\e801';
+}
+
+
+.formoid-solid-blue .element-address .country select{
+  cursor: pointer;
+}
+
+.formoid-solid-blue select:hover {
+  border-color: #70B6E5;
+}
+
+.formoid-solid-blue select:focus{
+  border-color: white;
+}
+
+/* bootstrap select */
+.formoid-solid-blue .dropdown-menu li.active > a,
+.formoid-solid-blue .dropdown-menu li.selected > a,
+.formoid-solid-blue .dropdown-menu li.active > a.highlighted,
+.formoid-solid-blue .dropdown-menu li.selected > a.highlighted,
+.formoid-solid-blue .dropdown-inverse li.active > 
+a,
+.formoid-solid-blue .dropdown-inverse li.selected > a {
+  background-color: white;
+}
+
+
+.formoid-solid-blue .dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  min-width: 160px;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  list-style: none;
+  background-color: #ffffff;
+  border-radius: 0;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  background-clip: padding-box;
+  border-radius: 3px;
+}
+
+
+
+
+.formoid-solid-blue .btn-group > .dropdown-menu{
+  font-size: 1em;
+}
+
+
+.formoid-solid-blue .btn{
+  text-align: left;
+  border: 0;
+  cursor: pointer;
+
+  width: 100%;
+  height: 100%;
+  padding: 10px 10px 9px 2.3em;
+
+  outline:none;
+
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: normal;
+  border-radius: 3px;
+
+  border: 2px solid #BDC3C7;
+  background-color: #fff;
+
+  font-size: 1em;
+}
+
+
+.formoid-solid-blue .btn:active,
+.formoid-solid-blue .btn-group.open .btn.dropdown-toggle,
+.formoid-solid-blue .btn.active {
+  box-shadow: none;
+}
+.formoid-solid-blue .btn.disabled,
+.formoid-solid-blue .btn[disabled] {
+  background-color: #bdc3c7;
+  color: rgba(255, 255, 255, 0.75);
+  box-shadow: none;
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+}
+
+.formoid-solid-blue .select {
+  width: 100%;
+}
+
+.formoid-solid-blue .select .btn .filter-option {
+  position: absolute;
+  left: 2.4em;
+  right: 30px;
+  overflow: hidden;
+  text-align: left;
+}
+
+.formoid-solid-blue .select .btn .dropdown-toggle {
+  border-radius: 6px;
+}
+.formoid-solid-blue .select .btn .dropdown-menu {
+  min-width: 100%;
+  box-sizing: border-box;
+}
+.formoid-solid-blue .select .btn .dropdown-menu li:not(.disabled) > a:hover small {
+  color: rgba(255, 255, 255, 0.004);
+}
+
+.formoid-solid-blue .select .btn > .disabled,
+.formoid-solid-blue .select .btn .dropdown-menu li.disabled > a {
+  cursor: default;
+}
+
+.formoid-solid-blue .dropdown-menu {
+  overflow-x: hidden;
+  display: block;
+  opacity: 0;
+  visibility: hidden;
+  width: 99%;
+  box-shadow: none;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  -webkit-backface-visibility: hidden;
+}
+.formoid-solid-blue .dropdown-menu.typeahead {
+  display: none;
+  opacity: 1;
+  visibility: visible;
+  width: auto;
+}
+.formoid-solid-blue .open > .dropdown-menu {
+  margin-top: 8px;
+  opacity: 1;
+  visibility: visible;
+}
+.formoid-solid-blue .dropdown-menu li:first-child dt + a {
+  border-radius: 0;
+}
+.formoid-solid-blue .dropdown-menu li.active > a,
+.formoid-solid-blue .dropdown-menu li.selected > a,
+.formoid-solid-blue .dropdown-menu li.active > a.highlighted,
+.formoid-solid-blue .dropdown-menu li.selected > a.highlighted,
+.formoid-solid-blue .dropdown-menu li.active > a:hover,
+.formoid-solid-blue .dropdown-menu li.selected > a:hover,
+.formoid-solid-blue .dropdown-menu li.active > a.highlighted:hover,
+.formoid-solid-blue .dropdown-menu li.selected > a.highlighted:hover,
+.formoid-solid-blue .dropdown-menu li.active > a:focus,
+.formoid-solid-blue .dropdown-menu li.selected > a:focus,
+.formoid-solid-blue .dropdown-menu li.active > a.highlighted:focus,
+.formoid-solid-blue .dropdown-menu li.selected > a.highlighted:focus {
+  color: #ffffff;
+}
+.formoid-solid-blue .dropdown-menu li > a {
+  padding: 6px 15px 6px;
+  text-decoration: none;
+  *zoom: 1;
+  -webkit-backface-visibility: hidden;
+  display: block;
+  clear: both;
+  white-space: nowrap;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.formoid-solid-blue .dropdown-menu li > a:before,
+.formoid-solid-blue .dropdown-menu li > a:after {
+  display: table;
+  content: "";
+}
+.formoid-solid-blue .dropdown-menu li > a:after {
+  clear: both;
+}
+.formoid-solid-blue .dropdown-menu li > a.highlighted {
+  background: #c9cfd4;
+  color: #ffffff;
+}
+.formoid-solid-blue .dropdown-menu li > a.highlighted:hover,
+.formoid-solid-blue .dropdown-menu li > a.highlighted:focus {
+  background: #bac1c8;
+  color: #ffffff;
+}
+.formoid-solid-blue .dropdown-menu li > a:before {
+  margin-top: 3px;
+}
+
+.formoid-solid-blue .dropdown-menu li dt {
+  margin-bottom: 3px;
+  margin-top: 12px;
+  padding: 0 15px;
+}
+
+
+
